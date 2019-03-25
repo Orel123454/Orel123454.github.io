@@ -1,0 +1,349 @@
+
+header{
+width:100%;
+height: 130px;
+margin: 0;
+padding: 0;
+background: #1C1C1C;
+}
+header .header{
+    display: flex;
+}
+header .logo{
+    display: block;
+width: 200px;
+height: 96px;
+margin-left: 40px;
+margin-top:3px;
+
+
+}
+header .logo .text{
+    display: inline-block;
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 35px;
+line-height: normal;
+color: #FFFFFF;
+margin: 0;
+padding:0;
+
+
+}
+header .logo .ig{
+    display: inline-block;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 65px;
+    line-height: normal;
+    color: #FF4747;
+    margin-left:-10px;
+}
+header .logo .logo_adress{
+    display: inline-block;
+font-family: Roboto;
+font-style: normal;
+font-weight: 300;
+font-size: 20px;
+line-height: 38px;
+color: #FFFFFF;
+white-space: nowrap;
+margin-top:-15px;
+}
+header .socsite{
+    display: flex;
+  margin-left: 82px;
+  margin-top: 40px;
+  flex-direction: row;
+  
+}
+header .socsite div{
+    width: 47px;
+    height: 47px;
+    margin: 0 37px;
+}
+header .adress{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: space-between;
+    align-items: center;
+    
+    height: 54px;
+    margin-top: 34px;
+    margin-left: 100px;
+    white-space: nowrap;
+
+}
+header .adress .text1{
+    font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 22px;
+line-height: 42px;
+color: #FFFFFF;
+}
+
+header .adress .text2{
+    margin-top: -10px;
+    font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 22px;
+line-height: 42px;
+color: #FFFFFF;
+}
+header .tel{
+   margin-left: 100px;
+   font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 25px;
+line-height: 41px;
+margin-top: 25px;
+color: #FFFFFF;
+margin-right: 23px;
+white-space: nowrap;
+}
+nav .nav {
+  height: 134px;
+  margin-top: 44px;
+  margin-left:54px;
+
+}
+nav ul.menu {
+  margin: 0; 
+  padding: 4px; 
+ }
+ nav ul.menu li {
+  display: inline;
+  margin-right: 78px; 
+  padding: 3px; 
+  list-style-type: none;
+ }
+ nav a{
+   
+  text-decoration: none;
+  font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 25px;
+line-height: 35px;
+
+color: #444247;
+ }
+ nav a:hover{
+   padding-bottom: 10px;
+   color:#FF4747;
+   border-bottom: 1px solid #FF4747;
+   
+ }
+ main .uslugi{
+   margin-left:51px;
+  
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+ }
+ main .uslugi div{
+   width:306px;
+   height: 233px;
+   border-radius: 10px;
+   margin-right: 39px;
+   margin-bottom: 39px;
+   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+   
+  
+   font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 25px;
+line-height: 35px;
+
+color: #FFFFFF;
+   
+ }
+ main .uslugi div a{
+   position:absolute;
+   margin-top:9rem;
+   margin-left: 19px;
+   word-wrap: break-word;
+   z-index: 3;
+   text-decoration: none;
+   font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 25px;
+line-height: 35px;
+ 
+color: #FFFFFF;
+ }
+ main .uslugi div  span{
+   position: absolute;
+   margin-left: 5rem;
+   z-index: 3;
+   margin-top:9rem;
+   margin-left: 16rem;
+ }
+ main .uslugi div:after{
+ 
+  background: linear-gradient(0deg, rgba(29, 29, 31, 0.656) 0%, rgba(0, 0, 0, 0.22304) 100%);
+  content: "";
+display: block;
+height:233px;
+
+position: absolute;
+
+width: 306px;
+ }
+ main .uslugi a:hover{
+  color: #FF4747;
+ }
+
+ main .uslugi div:nth-child(1){
+  background-image: url("../img/услуги/kyzrem.png");
+  
+}
+main .uslugi div:nth-child(2){
+  background-image: url("../img/услуги/slivki-himchistka-avto-minsk-skidka-megamoyka-1.png");
+}
+main .uslugi div:nth-child(3){
+  background-image: url("../img/услуги/remont_dvigatelya.png");
+}
+main .uslugi div:nth-child(4){
+  background-image: url("../img/услуги/Diagnostika-avto.png");
+}
+main .uslugi div:nth-child(5){
+  background-image: url("../img/услуги/54593246_2.png");
+}
+main .uslugi div:nth-child(6){
+  background-image: url("../img/услуги/podveska-550x305.png");
+}
+main .uslugi div:nth-child(7){
+  background-image: url("../img/услуги/zamena.png");
+}
+main .uslugi div:nth-child(8){
+  background-image: url("../img/услуги/Screenshot_14.png");
+}
+main .mastera{
+  height: 767px;
+}
+main .mastera .img_container{
+  display: flex;
+}
+main .mastera img{
+  width: auto;
+  height: auto;
+}
+main .mastera h2{
+  font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 45px;
+line-height: normal;
+
+color: #444247;
+margin-left: 35%;
+}
+main .mastera p{
+  font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 22px;
+line-height: 42px;
+
+color: #727272;
+  width: 675px;
+  margin-left: 140px;
+}
+main .mastera .img_container .text h3{
+  font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 25px;
+line-height: 35px;
+
+color: #444247;
+margin-left: 8.5rem;
+}
+main .mastera span{
+  margin-left: 60%;
+  margin-bottom: 100%;
+  position: absolute;
+  font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 414px;
+line-height: normal;
+
+color: #FF4747;
+
+/* 1 */
+opacity: 0.04;
+}
+main .zakaz{
+  height: 396px;
+  width: 100%;
+  background-image: url(../img/car-repair-austin-cedar-park-round-rock-pampered-auto-care-01-2418x1662.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+main .zakaz::after{  
+  content: "";
+display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background: linear-gradient(180deg, rgba(17, 17, 18, 0.52) 0%, rgba(51, 51, 51, 0) 100%);
+  backdrop-filter: blur(6px);
+}
+main .zakaz h2{
+  position: absolute;
+  z-index: 3;
+  font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 45px;
+line-height: normal;
+
+color: #FF4747;
+}
+main .zakaz form{
+  margin-top: 20rem;
+  margin-bottom: 79px;
+  margin-left: 49px;
+  display: flex;
+  z-index: 3;
+  position: absolute;;
+  
+}
+main .zakaz form label{
+  font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 25px;
+line-height: 35px;
+
+color: #FFFFFF;
+}
+main .zakaz form input{
+  font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 22px;
+line-height: 42px;
+
+font-color: #727272;
+
+/* текст 2 */
+opacity: 0.48;
+  background: rgba(255, 255, 255, 0.98);
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 37px;
+width: 300px;
+height: 72px;
+z-index:3;
+}
+
