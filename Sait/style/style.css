@@ -1,6 +1,4 @@
-﻿body{
-background-color:red;
-}
+﻿
 header{
 width:100%;
 height: 130px;
@@ -260,6 +258,9 @@ color: #727272;
   width: 675px;
   margin-left: 140px;
 }
+main .mastera .img_container img{
+  margin-left: 15px;
+}
 main .mastera .img_container .text h3{
   font-family: Roboto;
 font-style: normal;
@@ -286,6 +287,7 @@ color: #FF4747;
 opacity: 0.04;
 }
 main .zakaz{
+  display: flex;
   height: 396px;
   width: 100%;
   background-image: url(../img/car-repair-austin-cedar-park-round-rock-pampered-auto-care-01-2418x1662.png);
@@ -296,12 +298,13 @@ main .zakaz::after{
   content: "";
 display: block;
   width: 100%;
-  height: 100%;
+  height: 396px;
   position: absolute;
   background: linear-gradient(180deg, rgba(17, 17, 18, 0.52) 0%, rgba(51, 51, 51, 0) 100%);
   backdrop-filter: blur(6px);
 }
 main .zakaz h2{
+  margin-left: 53px;
   position: absolute;
   z-index: 3;
   font-family: Roboto;
@@ -313,12 +316,12 @@ line-height: normal;
 color: #FF4747;
 }
 main .zakaz form{
-  margin-top: 20rem;
+  align-content: flex-end;
+  margin-top: 15rem;
   margin-bottom: 79px;
-  margin-left: 49px;
   display: flex;
   z-index: 3;
-  position: absolute;;
+  position: absolute;
   
 }
 main .zakaz form label{
@@ -329,23 +332,177 @@ font-size: 25px;
 line-height: 35px;
 
 color: #FFFFFF;
+
 }
 main .zakaz form input{
+  
   font-family: Roboto;
 font-style: normal;
 font-weight: normal;
 font-size: 22px;
 line-height: 42px;
-
-font-color: #727272;
-
+color:rgba(114, 114, 114, 0.48);
+padding-left: 31px;
 /* текст 2 */
-opacity: 0.48;
+
   background: rgba(255, 255, 255, 0.98);
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 border-radius: 37px;
 width: 300px;
 height: 72px;
-z-index:3;
+
+}
+main .zakaz form div {
+  margin-left: 42px;
+}
+main .zakaz form .button{
+  background: linear-gradient(180deg, #FF4747 0%, #FE5D5D 100%);
+box-shadow: 0px 1px 4px #FF5656;
+border-radius: 268px;
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 22px;
+line-height: 42px;
+
+color: #FFFFFF;
+}
+main .prem{
+  height: 601px;
+  margin-top: 77px;
+}
+main .prem h2{
+  font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 45px;
+line-height: normal;
+
+color: #444247;
+text-align: center;
+}
+main .prem .text{
+  display: flex;
+  
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-bottom: 86px;
+}
+main .prem .text div{
+  display: flex;
+  
+  margin-bottom: 71px;
+}
+main .prem span{
+  margin-top: 40px;
+  font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 25px;
+line-height: 35px;
+margin-left: 2rem;
+color: #444247;
 }
 
+main .prem .text .Kol_1{
+  margin-left: 98px;
+  flex-wrap: nowrap;
+  display:flex;
+  flex-direction: column;
+}
+main .prem .text .Kol_2{
+  margin-right: 98px;
+  flex-wrap: nowrap;
+  display:flex;
+  flex-direction: column;
+}
+main .prem .oval{
+  
+  width: 100px; 
+height: 100px; 
+background: #FEFEFE;
+box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.078);
+border-radius: 50%;
+
+background: no-repeat;
+}
+main .prem .Kol_1 .oval1{
+  background-image: url(../img/Значки/1.png) ;
+  background-position: center center;
+}
+main .prem .Kol_1 div .oval2{
+  background-image: url(../img/Значки/2.png) ;
+  background-position: center center;
+}
+main .prem .Kol_1 div .oval3{
+  background-image: url(../img/Значки/3.png) ;
+  background-position: center center;
+}
+main .prem .Kol_2 div .oval4{
+  background-image: url(../img/Значки/4.png) ;
+  background-position: center center;
+}
+main .prem .Kol_2 div .oval5{
+  background-image: url(../img/Значки/5.png) ;
+  background-position: center center;
+}
+main .prem .Kol_2 div .oval6{
+  background-image: url(../img/Значки/6.png) ;
+  background-position: center center;
+}
+.put{
+  margin-top:10rem;
+}
+.put .content{
+ margin-top: 10rem;
+ display: flex;
+ flex-direction: row;
+ margin-left: 50px;
+ margin-right: 50px;
+}
+.put  h2{
+  text-align: center;
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 45px;
+line-height: normal;
+
+color: #FF4747;
+}
+.put .content div::after{
+  background: linear-gradient(0deg, rgba(245, 56, 90, 0.252) 0%, rgba(218, 183, 189, 0) 100%);
+  border-radius: 5px;
+  display: block;
+  content: "";
+  height: 520px;
+  width: 420px;
+}
+.put .content div{
+  margin-right: 40px;
+}
+.put .content .img1{
+ background-image: url("../img/Значки/Mask Group.png");
+ height: 520px;
+ width: 420px;
+}
+.put .content .img2{
+ background-image: url("../img/Значки/Mask Group1.png");
+ height: 520px;
+ width: 420px;
+}
+.put .content .img3{
+  background-image: url("../img/Значки/Mask Group3.png");
+  height: 520px;
+ width: 420px;
+ }
+ .put .content span{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 35px;
+  
+  color: #FFFFFF;
+  position: absolute;
+ }
