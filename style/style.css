@@ -29,10 +29,21 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-	line-height: 1;
+    width: 100%;
+    background-color: #000000;
+    line-height: 1;
+    
 }
 ol, ul {
 	list-style: none;
+}
+.wrapper{
+    max-width: 1920px;
+    margin: auto;
+}
+.wrapper-footer{
+    max-width: 1920px;
+    margin: auto;
 }
 blockquote, q {
 	quotes: none;
@@ -60,6 +71,10 @@ h3{
     width: 100%;
     font-weight: lighter;
     background: url(/img/i.png) no-repeat;
+    background-size: cover; 
+    -moz-background-size: cover; 
+    -o-background-size: cover; 
+    -webkit-background-size: cover;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -120,10 +135,12 @@ ul{
     width: 358px;
     height: 143px;
 } */
+
 .header-nav a:hover{
     color:#F04343;
     border-bottom: 1px solid #F04343;
     line-height: 60px;
+    cursor:pointer;
 }
 .genre{
     font-size: 48px;
@@ -372,17 +389,18 @@ main{
     display: flex;
 }
 .tab_img{
-    width: 400px;
-    height: 600px;
+    width: 96%;
+    max-width: 400px;
     margin-right: 69px;
     margin-left: 54px;
-    border-radius: 30px;
     margin-top: 37px;
     margin-bottom: 37px;
-    background-size: cover; 
-    -moz-background-size: cover; 
-    -o-background-size: cover; 
-    -webkit-background-size: cover;
+   
+}
+.tab_img img{
+    width:100%;
+    height: auto;
+    border-radius: 30px;
 }
 .tab_text{
     margin-right: 84px;
@@ -408,15 +426,18 @@ main{
     padding-bottom:8px;
 }
 .content_img{
-    width: 876px;
-    height: 916px;
     border-radius: 50px;
-    background: url(/img/4312i.png);
     margin-right: 65px;
     background-size: cover; 
     -moz-background-size: cover; 
     -o-background-size: cover; 
     -webkit-background-size: cover;
+    max-width: 900px;
+    width: 96%;
+}
+.content_img img{
+    width: 100%; 
+    height: auto;
 }
 .content{
     color:#fff;
@@ -620,6 +641,7 @@ footer{
     color:#F04343;
     border-bottom: 1px solid #F04343;
     line-height: 60px;
+    cursor:pointer;
 }
 .footer-down{
     padding: 25px 38px;
@@ -885,6 +907,11 @@ footer{
 
 }
 @media screen and ( max-width: 960px ){
+    .header-nav,.footer-nav a:hover{
+        color:#F04343;
+        border-bottom: 1px solid #F04343;
+        line-height: 24px;
+    }
     .genre ul{
         -webkit-box-orient: vertical;
         -webkit-box-direction: normal;
@@ -929,6 +956,11 @@ footer{
     }
     .footer-down li{
         margin-right: 10px;
+    }
+}
+@media screen and (max-width:600px){
+    .tab_img {
+        margin:auto;
     }
 }
 
