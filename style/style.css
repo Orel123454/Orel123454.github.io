@@ -907,7 +907,7 @@ footer{
 
 }
 @media screen and ( max-width: 960px ){
-    .header-nav,.footer-nav a:hover{
+    .header-nav a:hover,.footer-nav a:hover{
         color:#F04343;
         border-bottom: 1px solid #F04343;
         line-height: 24px;
@@ -961,6 +961,28 @@ footer{
 @media screen and (max-width:600px){
     .tab_img {
         margin:auto;
+    }
+    .prem_wrapper li{
+        font-size: 24px;
+    }
+    .prem_wrapper .prem2,.prem1{
+        margin-bottom: 150px;
+    }
+    .slick-arrow{
+        width: 32px;
+        height: 32px;
+        background-size: cover; 
+        -moz-background-size: cover; 
+        -o-background-size: cover; 
+        -webkit-background-size: cover;
+    }
+    .footer-down span{
+        display: none;
+    }
+    .slick-dots button{
+        width:15px;
+        height: 15px;
+        margin-right: 20px;
     }
 }
 
