@@ -993,6 +993,11 @@ footer{
         margin-left: -150px;
     }
 }
+@media screen and (max-width:380px){
+   .container-wrapper{
+       background-image: none
+   }
+}
 
 
 
