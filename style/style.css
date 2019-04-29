@@ -32,6 +32,7 @@ body {
     width: 100%;
     background-color: #000000;
     line-height: 1;
+    overflow-x: hidden;
     
 }
 ol, ul {
@@ -39,6 +40,7 @@ ol, ul {
 }
 .wrapper{
     max-width: 1920px;
+    width:auto;
     margin: auto;
 }
 .wrapper-footer{
@@ -204,7 +206,6 @@ ul{
 }
 
 .genre ul{
-    width: 100%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
