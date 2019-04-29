@@ -761,9 +761,6 @@ footer{
     .header-nav{
         margin-right: 100px;
     }
-    .header-wrapper{
-        width: 100%;
-    }
     .glavn h1{
         font-size: 36px;
     }
@@ -987,6 +984,9 @@ footer{
     }
 }
 @media screen and (max-width:480px){
+    header{
+        flex-direction: column;
+    }
     .header-nav{
         margin-right: 0;
     }
