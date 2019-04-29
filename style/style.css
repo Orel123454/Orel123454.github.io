@@ -986,6 +986,14 @@ footer{
         margin-right: 20px;
     }
 }
+@media screen and (max-width:480px){
+    .header-nav{
+        margin-right: 0;
+    }
+    .genre{
+        margin-left: -150px;
+    }
+}
 
 
 
